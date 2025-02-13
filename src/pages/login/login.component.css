@@ -1,0 +1,95 @@
+.container {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #78A121;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.headerBar {
+    position: absolute;
+    /* Ensures the header stays at the top */
+    width: 100vw;
+    max-width: 100%;
+    height: 104px;
+    left: 0;
+    top: 0;
+    background: #78A121;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    /* justify-content: center; */
+    /* padding-left: 40px; */
+}
+
+.Logo {
+    width: 75px;
+    height: 75px;
+    margin-right: 20px;
+    margin-left: 40px;
+    /* Space between logo and text */
+}
+
+.name {
+    color: white;
+    font-size: 35px;
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.tagline {
+    position: absolute;
+    display: flex;
+    /* justify-content: center; */
+    top: 135px;
+    color: white;
+    font-size: 65px;
+    font-family: Grand Royal;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.SignIn {
+    position: absolute;
+    top: 240px;
+    color: white;
+    font-size: 50px;
+    font-family: Arial Rounded MT Bold;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.SignUplink {
+    position: absolute;
+    top: 330px;
+}
+
+.signuptext {
+    color: white;
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.Signup {
+    color: #E4E11A;
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: 400;
+    word-wrap: break-word
+}
