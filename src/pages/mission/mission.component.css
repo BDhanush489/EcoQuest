@@ -1,0 +1,110 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #6ea100;
+    overflow: hidden;
+    display: flex;  /* Ensures Flexbox */
+    /* align-items: center;  Vertically centers */
+    justify-content: center;  /* Horizontally centers */
+    text-align: center;
+}
+
+
+.Ellipse1 {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    left: 944px;
+    top: 542px;
+    background: rgba(217, 217, 217, 0);
+    border-radius: 100%;
+    border: 5px #E4E11A solid
+}
+
+.Ellipse2 {
+    width: 914px;
+    height: 906px;
+    left: 907px;
+    top: 500px;
+    position: absolute;
+    background: rgba(217, 217, 217, 0);
+    border-radius: 100%;
+    border: 5px #E4E11A solid
+}
+
+.Ellipse3 {
+    width: 841px;
+    height: 821px;
+    left: -574px;
+    top: -159px;
+    position: absolute;
+    background: rgba(217, 217, 217, 0);
+    border-radius: 100%;
+    border: 5px #E4E11A solid
+}
+
+.Ellipse4 {
+    width: 820px;
+    height: 820px;
+    right: -500px;
+    top: -395px;
+    position: absolute;
+    background: rgba(217, 217, 217, 0);
+    border-radius: 9999px;
+    border: 5px #E4E11A solid
+}
+.Ellipse5 {
+    width: 820px;
+    height: 820px;
+    right: -450px;
+    top: -360px;
+    position: absolute;
+    background: rgba(217, 217, 217, 0);
+    border-radius: 100%;
+    border: 5px #E4E11A solid
+}
+
+.Ellipse6 {
+    width: 914px;
+    height: 906px;
+    left: -611px;
+    top: -201px;
+    position: absolute;
+    background: rgba(217, 217, 217, 0);
+    border-radius: 9999px;
+    border: 5px #E4E11A solid
+}
+
+.OurMission {
+    position: absolute;  /* Allow for custom positioning */
+    top: 120px;  /* Set the top value */
+    color: white;
+    font-size: 70px;
+    font-family: "Grand Royal", sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;  /* Ensure text is centered */
+    left: 50%;  /* Horizontally center */
+    transform: translateX(-50%);  /* Fine-tune the horizontal centering */
+}
+.OurMissionText {
+    position: absolute;  /* Allow for custom positioning */
+    top: 230px;  /* Set the top value */
+    color: white;
+    font-size: 25px;
+    font-family: "Grand Royal", sans-serif;
+    text-align: center;  /* Ensure text is centered */
+    font-weight: 0;
+    left: 50%;  /* Horizontally center */
+    transform: translateX(-50%);  /* Fine-tune the horizontal centering */
+}
+
+.background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    /* background: #78A121; */
+    /* z-index: ; */
+}

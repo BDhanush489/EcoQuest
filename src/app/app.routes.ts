@@ -1,3 +1,4 @@
+import { MissionComponent } from './../pages/mission/mission.component';
 import { Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { LoginComponent } from '../pages/login/login.component';
@@ -12,6 +13,10 @@ export const routes: Routes = [
     {
         path:'login',
         component:LoginComponent 
+    },
+    {
+        path:'mission',
+        component:MissionComponent 
     }
 
 ];

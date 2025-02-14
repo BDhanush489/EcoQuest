@@ -13,5 +13,8 @@ export class HeaderComponent {
   redirectToLogin() {
     this.router.navigate(['/login']);
   }
+  redirectToMission() {
+    this.router.navigate(['/mission']);
+  }
 
 }
